@@ -5,7 +5,6 @@ let package = Package(
     name: "build-kit",
     products: [
         .library(name: "BuildKit", targets: ["BuildKit"]),
-        .library(name: "BuildKitDynamic", type: .dynamic, targets: ["BuildKit"]),
     ],
     dependencies: [
         .package(url: "https://github.com/binarybirds/shell-kit", from: "1.0.0"),
